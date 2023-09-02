@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <style>
+        .container {
+            text-align: center;
+            padding: 20px;
+            width: 64vw;
+            margin-left: 14%;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .submit-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #e2e2e2;">
+    <div class="outcontainer" style="background-color: white;
+    border-radius: 26px;
+    width: 89%;
+    margin-left: 7%;">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name" aria-placeholder="Enter your name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number" aria-placeholder="enter your 10 digit pnone number">phone number</label>
+                    <input type="number" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+@media screen and (max-width: 810px) {
+    body{
+        width: 104vw;
+    }
+    .main {
+        margin: 4% 2%;
+        height: auto;
+    }
+
+    .logo img {
+        width: 62px;
+        margin: 18% 31%;
+    }
+
+    .name h1 {
+        margin: 25px 26%;
+        font-size: 26px;
+    }
+    ul {
+        display: flex;
+        margin: 10px 44px;
+      }
+      ul li {
+        margin: 26px;
+        font-size: 16px;
+    }
+    .image img {
+        width: 21rem;
+        margin-right: 2rem;
+      }
+      .main {
+        margin: 4% 1%;
+        height: 70vh;
+        width: 91%;
+      }
+      .multiple-text{
+        font-size: 1.6rem;
+      }
+    }
+    @media screen and (max-width: 576px){
+        ul li {
+            margin: 20px;
+            font-size: 12px;
+          }
+          .logo img {
+            width: 45px;
+            margin: 37% 48%;
+          }
+          .name h1 {
+            margin: 26px 26%;
+            font-size: 20px;
+          }
+          ul{
+            margin: 10px 10px;
+          }
+          .bio h1{
+            font-size: 24px;
+          }
+          .image img {
+            width: 12rem;
+        }
+        .main{
+            height: auto;
+        }
+    }
+    @media screen and (max-width:550px){
+        ul {
+            margin: 11px -8px;
+          }
+          ul li {
+            margin: 17px;
+            font-size: 12px;
+          }
+          .image img {
+            width: 11rem;
+          }
+    }
+    @media screen and (max-width:510px) {
+        .main {
+            margin: 1%;
+            box-shadow: 4px -1px 10px 0px;
+            border-radius: 10px;
+            height: auto;
+        }
+    
+        .logo img {
+            width: 35px;
+            margin: 20px 20%;
+        }
+    
+        .name h1 {
+            margin: 24px 12%;
+            font-size: 20px;
+        }
+        ul{
+            display: flex;
+            margin: 24px 18px;
+        }
+        ul li{
+            margin: 8px;
+            font-size: 10px;
+        }
+        .bio h1{
+            margin: 52px -2px;
+            font-size: 20px;
+        }
+        .bio h3{
+            margin: 0;
+        }
+        p .first{
+            width: 90%;
+             line-height: 22px;
+             font-style: oblique;
+             font-weight: 600;
+        }
+        .bio .second{
+            font-size: 12px;
+        }
+        .multiple-text{
+            font-size: 18px;
+            text-shadow: 2px 2px 2px rgb(29, 29, 29);
+        }
+        .bio .first{
+            line-height: 16px;
+            font-size: 10px;
+            width: 159%;
+        }
+        .image img{
+            width: 10rem;
+      margin: -28px 0px;
+        }
+        .intract{
+            display: flex;
+        }
+        button{
+            width: 12rem;
+        }
+        /* about page jhere */
+        header h1 {
+            font-size: 1.5rem;
+        }
+    }
+    
+    
+    @media screen and (max-width:428px) {
+        .main {
+            margin: 1%;
+            box-shadow: 4px -1px 10px 0px;
+            border-radius: 10px;
+            height: auto;
+        }
+    
+        .logo img {
+            width: 35px;
+            margin: 20px 20%;
+        }
+    
+        .name h1 {
+            margin: 24px 12%;
+            font-size: 20px;
+        }
+        ul{
+            display: flex;
+            margin: 24px 18px;
+        }
+        ul li{
+            margin: 8px;
+            font-size: 10px;
+        }
+        .bio h1{
+            margin: 52px -2px;
+            font-size: 20px;
+        }
+        .bio h3{
+            margin: 0;
+        }
+        p .first{
+            width: 90%;
+             line-height: 22px;
+             font-style: oblique;
+             font-weight: 600;
+        }
+        .bio .second{
+            font-size: 12px;
+        }
+        .multiple-text{
+            font-size: 18px;
+            text-shadow: 2px 2px 2px rgb(29, 29, 29);
+        }
+        .bio .first{
+            line-height: 16px;
+            font-size: 10px;
+            width: 176%;
+        }
+        .image img{
+            width: 10rem;
+      margin: -28px 0px;
+        }
+        .intract{
+            display: flex;
+        }
+        button{
+            width: 12rem;
+        }
+        /* about page jhere */
+        header h1 {
+            font-size: 1.5rem;
+        }
+    }
+    @media screen and (max-width:414px){
+        button{
+            width: 11rem;
+        }
+        ul{
+            margin: 24px 7px;
+        }
+    }
+    @media screen and (max-width:390px){
+        ul li{
+            font-size: 8px
+        }
+        button {
+            width: 10rem;
+            font-size: 10px;
+          }
+          .main{
+            height: 70vh;
+          }
+          .social-media{
+            margin: 27px -3%;
+          }
+          .main{
+            height: auto;
+          }
+    }
+    @media screen and (max-width:375px){
+        ul {
+            margin: 24px 0px;
+          }
+          .bio .second {
+            font-size: 11px;
+          }
+    }

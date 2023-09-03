@@ -1,0 +1,129 @@
+@media screen and (max-width:810px) {
+    .background-img{
+        opacity: 0.2;
+    }
+    .about .owner img {
+        width: 34%;
+        right: 54px;
+    }
+    .welcome img {
+        position: absolute;
+        top: 23rem;
+    }
+    .content h1{
+        font-size: 28px;
+    }
+    .content .multiple-text{
+        font-size: 34px;
+    }
+    .image img {
+        width: 138%;
+        margin-top: 17px;
+      }
+      .item{
+            margin: 9% auto;
+            font-size: 18px;
+      }
+}
+@media screen and (max-width:720){
+    .item {
+        margin: 11% auto;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .navbar h1 {
+        font-size: 2rem;
+    }
+    .welcome img {
+        position: absolute;
+        top: 21rem;
+      }
+}
+@media screen and (max-width: 648px){
+    .welcome img{
+       top: 19rem;
+    }
+    .navbar h1 {
+        font-size: 2rem;
+    }
+    .content h1 {
+        font-size: 26px;
+      }
+      .item {
+        margin: 10% auto;
+        font-size: 16px;
+      }
+      .content .multiple-text {
+        font-size: 26px;
+      }
+
+}
+@media screen and (max-width: 550px) {
+    .navbar h1 {
+        font-size: 1.5rem;
+      }
+      .nav-item{
+        margin: 0 0 0 5%;
+      }
+      .item{
+        font-size: 14px;
+      }
+      .content h1 {
+        font-size: 22px;
+      }
+      .paragraph p{
+        font-size: 16px;
+      }
+      .welcome img {
+        top: 19rem;
+      }.content .multiple-text{
+        font-size: 24px;
+    }
+    .about .owner img {
+        right: 28px;
+      }
+      .about .owner {
+        width: 4vw;
+      }
+      .content h1{
+        width: 62vw;
+        line-height: 33px;
+      }
+      .paragraph p{
+        line-height: 33px;
+      }
+      button{
+        width: 13rem;
+      }
+}
+@media screen and (max-width:490px){
+    .navbar h1 {
+        font-size: 1rem;
+        margin: 28px 17px;
+      }
+      .item {
+        font-size: 12px;
+      }
+
+}
+@media screen and (max-width: 412px) {
+    .item {
+      font-size: 10px;
+    }
+    .nav-item {
+        margin: 06px 0 0 0;
+      }
+}
+@media screen and (max-width: 412px) {
+    .image img {
+        width: 122%;
+        margin-top: 22px;
+      }
+      .navbar h1 {
+        font-size: 1rem;
+        margin: 28px 5px;
+      }
+      .nav-item {
+        margin: 10px 0 0 0;
+      }
+} 
